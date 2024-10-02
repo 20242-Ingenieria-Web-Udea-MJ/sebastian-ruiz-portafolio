@@ -2,6 +2,11 @@ import { useState, useEffect } from "react";
 import RoundedLinkButton from "@/components/atoms/roundedLinkButton";
 import { SunIcon, MoonIcon } from "@radix-ui/react-icons";
 
+interface ThemeToggleButtonProps {
+    isDarkMode: boolean;
+    toggleTheme: () => void;
+}
+
 const useTheme = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
 
@@ -19,7 +24,7 @@ const useTheme = () => {
     return { isDarkMode, toggleTheme };
 };
 
-const ThemeToggleButton = ({ isDarkMode, toggleTheme }) => (
+const ThemeToggleButton:React.FC<ThemeToggleButtonProps> = ({ isDarkMode, toggleTheme })=> (
     <button 
         onClick={toggleTheme} 
         className="mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-lg flex items-center justify-center"
