@@ -4,6 +4,12 @@
 This is a personal portfolio project built with Next.js, React, and TypeScript. It showcases various projects, experiences, and skills.
 built for the web enginering class at the University of Antioquia. 
 
+## Live Demo
+
+Check out the live demo of this portfolio project at:
+
+[Live Demo](https://sebastian-ruiz-portfolio.vercel.app/)
+
 ## Table of Contents
 
 - [Features](#features)
