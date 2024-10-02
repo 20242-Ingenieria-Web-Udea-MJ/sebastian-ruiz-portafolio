@@ -34,6 +34,8 @@ Check out the live demo of this portfolio project at:
 
 - **Mobile Version**: The portfolio is optimized for mobile devices with a fully functional mobile navigation bar and responsive components that adjust to different screen resolutions.
 - **Light/Dark Theme Toggle**: Users can toggle between light and dark themes using a theme toggle button, which preserves the selected theme even after page refreshes.
+- **Animations**: Added animations for some components of the project: The progression Skills and the Mobile Menu
+
 
 ## Installation
 
